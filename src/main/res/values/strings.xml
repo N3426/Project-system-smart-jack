@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SSJ</string>
+    <string name="welcome_message">Welcome to\nSystem Smart Jack</string>
+    <string name="button_bluetooth_text">--> [Bluetooth]</string>
+    <string name="button_wifi_text">-->         [Wifi]</string>
+    <string name="status_connected">Status Connection: Connected</string>
+    <string name="status_not_connected">Status Connection: Not Connected</string>
+    <string name="About">About Project</string>
+    <string name="App_Logo">Logo</string>
+    <string name="soon">Coming soon</string>
+    <string name="description_for_image">Image diagram Arduino</string>
+    <string name="description_for_image2">Image coding Arduino</string>
+    <string name="Arduino_coding">test</string>
+    <string name="Code_explain">This is explanation for coding</string>
+
+</resources>

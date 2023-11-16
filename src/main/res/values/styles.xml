@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CodeBlockStyle">
+        <item name="android:background">@color/codeBlockBackground</item>
+        <item name="android:textColor">@color/codeBlockTextColor</item> <!-- This will now be gray -->
+        <item name="android:padding">8dp</item> <!-- Padding around the text -->
+        <item name="android:fontFamily">monospace</item> <!-- Monospace font -->
+    </style>
+
+</resources>
