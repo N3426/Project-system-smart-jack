@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FunctionActivity">
+
+    <Button
+        android:id="@+id/bluetoothListButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Go to Bluetooth scan" />
+
+    <!-- Initially, set it as gone -->
+
+    <TextView
+        android:id="@+id/connectionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Connection: Not Connected"
+        android:textColor="@color/grayColor"
+        android:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/moveUpButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/green_button"
+        android:text="Move Up" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/moveDownButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@null"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/red_button"
+        android:text="Move Down" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth not connected"
+        android:textColor="@color/errorColor"
+        android:visibility="gone" /> <!-- Initially, set it as gone -->
+
+
+
+
+
+</LinearLayout>
+
