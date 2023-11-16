@@ -1,14 +1,14 @@
 # Project-system-smart-jack
 
 Purpose:
-- Help Women and elderly to lift car by using scissor jack with easy.
-- Make the place bright for easily to switch tyre in the dark
-- easy to use by using app to connect to System Smart Jack
+- Help Women and the elderly to lift cars by using a scissor jack with ease.
+- Make the place bright for easy to switch tyres in the dark
+- easy to use by using an app to connect to System Smart Jack
 - easy to carry everywhere
 
-## Explanation of the code in detail, focusing on what is defined and the purpose of the `setup()` and `loop()` functions.
+# Explanation of the code in detail, focusing on what is defined and the purpose of the `setup()` and `loop()` functions.
 
-# Definitions and Declarations
+## Definitions and Declarations
 
 1. **Include Directive**:
    - `#include <SoftwareSerial.h>`: This line includes the SoftwareSerial library, enabling serial communication on digital pins of the Arduino other than the default RX/TX pins.
@@ -27,7 +27,7 @@ Purpose:
    - `char Incoming_value = 0;`: A character variable to store the incoming data from the Bluetooth module.
    - `bool motorRunning = false;`: A boolean variable (unused in the code) intended to track the motor's running state.
 
-# `setup()` Function
+## `setup()` Function
 
 This function runs once when the Arduino is powered up or reset. It is used to set up the environment.
 
@@ -36,7 +36,7 @@ This function runs once when the Arduino is powered up or reset. It is used to s
 - `pinMode(infraRed, INPUT);`: Sets the infrared sensor pin as input to read its state.
 - `pinMode(ldrPin, INPUT);`: Sets the LDR pin as input to read light levels.
 
-# `loop()` Function
+## `loop()` Function
 
 This function contains code that runs continuously after the `setup()`.
 
