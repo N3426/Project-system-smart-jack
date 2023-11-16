@@ -56,3 +56,6 @@ This function contains code that runs continuously after the `setup()`.
    - If `Incoming_value` is `'0'`, similar logic applies but for moving the motor anticlockwise.
 
 The `loop()` function thus orchestrates the light-responsive behavior and motor control based on Bluetooth commands and IR sensor readings. The use of `digitalWrite()` and `analogWrite()` functions controls the LEDs and motor speed/direction, respectively.
+
+## Summary
+   In simple terms, this code turns a device into a remotely controlled gadget that can move based on commands. It uses light to decide when to turn on a night light and uses an infrared sensor to avoid bumping into things.
