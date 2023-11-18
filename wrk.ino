@@ -5,7 +5,7 @@ const int ledPin1 = 13;  // LED connected to digital pin 13
 const int ledPin2 = 12;
 const int rxPin = 1;   // RXD pin of HC-05 connected to digital pin 10
 const int txPin = 0;   // TXD pin of HC-05 connected to digital pin 11
-const int infraRed = 11; // Infra red sensor
+const int infraRed = 11; // Infrared sensor
 const int ldrPin = A0;     // Analog pin for LDR
 // Define the pins for the BTS7960
 const int ENL = 5;  // Left Enable (Speed Control)
